@@ -106,7 +106,6 @@ ul {
 	list-style: disc;
 }
 ul, ol {
-	margin: 10px 0;
 	padding: 0;
 }
 li>ul, li>ol {
