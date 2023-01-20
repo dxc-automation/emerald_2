@@ -3679,8 +3679,13 @@ a{
   color: #111111;
 }
 
+
 .main-menu li:hover a, .main-menu li:focus a, .main-menu li.current-menu-item a, .main-menu li.current-menu-parent a, .main-menu li.current-menu-ancestor a {
-  opacity: 1;
+  opacity: 100;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+  border-left: 3px ridge black;
 }
 
 .main-menu .sub-menu {
