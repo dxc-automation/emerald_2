@@ -285,6 +285,15 @@ a{
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.overlay-new {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
 .vertical-align {
   position: absolute;
   width: 100%;
@@ -696,6 +705,7 @@ a{
 .no-padd {
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 300px;
 }
 
 .overflow {
@@ -4802,7 +4812,7 @@ a{
 
 .top-banner.categories .content {
   margin-top: 130px;
-  margin-bottom: 130px;
+  margin-bottom: -109px;
 }
 
 .top-banner.categories .top-banner-cursor {
@@ -6989,6 +6999,15 @@ div.circle {
 .prague_gap_col15 {
   margin-left: -15px;
   margin-right: -15px;
+  margin-top: -390px;
+
+}
+
+.prague_gap_col15-new {
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -80px;
+
 }
 
 .prague_gap_col15 .portfolio-item {
@@ -17723,7 +17742,6 @@ span.wpcf7-not-valid-tip {
     right  var(--_i,0%) bottom var(--_g);
   -webkit-mask: var(--m);
           mask: var(--m);
-  filter: grayscale();
   transition: .3s linear;
   cursor: pointer;
 }
@@ -17731,3 +17749,55 @@ span.wpcf7-not-valid-tip {
   --_i: 10%;
   filter: grayscale(0);
 }
+
+.gallery-home {
+background-image: url("file:///C:/Users/Pavel.Popov/OneDrive/Documents/New%20folder/OneDrive/emerald_2/img/work-category-list/88078a41049671.579736c352fcb.jpg");
+min-height: 100vh;
+bottom: 300px;
+}
+
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+.ml5 .text-wrapper-loader {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color: #402d2d;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family: Baskerville, serif;
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
+
+
