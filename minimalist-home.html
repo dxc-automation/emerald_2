@@ -20,6 +20,12 @@
         <link rel="stylesheet" href="css/style.css?v=1">
 </head>
 
+<script>
+        history.scrollRestoration = "manual";
+        $(window).on('beforeunload', function(){
+        $(window).scrollTop(0);});
+</script>
+
 <body>
 
         <!--PRELOADER-->
